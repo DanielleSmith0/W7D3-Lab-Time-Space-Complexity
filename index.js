@@ -316,3 +316,7 @@ function countLettersRoundTwo(str) {
 
 //The first function takes up a space for each letter of the alphebet and returns the same object, so there is also an object, which is consant. However because of line 277, memory in space is taken up and will vary in size, depending on the string, then it is linear as the string is saved to a variable
 //Line 270 makes there be a copy of the string, so it is saved and is in fact linear.
+
+// OR Kevin's answer:
+
+//While both functions track and record the quantities of letters in a given string, they do so in different liner space complexities.  The first function stores an array containing each letter from the given string, whereas the second function only copys the string as part of its filtering process.  In both cases there is the possibility for a very large varible amount of memory required to run the function. 
